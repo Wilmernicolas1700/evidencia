@@ -1,0 +1,14 @@
+<dl>
+<dt>identidicacion</dt>
+<dd><%=@person.dentificacion %></dd>
+<dt>primer nombre</dt>
+<dd><%=@person.first_name %></dd>
+<dt>segundo nombre</dt>
+<dd><%=@person.second_name %></dd>
+<dt>primer apellido</dt>
+<dd><%=@person.first_last_name %></dd>
+<dt>segundo apellido</dt>
+<dd><%=@person.second_last_name %></dd>
+</dl>
+<a href="<%= edit_person_path%>" >Editar</a>
+<a href="<%= people_index_path%>" >Lista</a>
